@@ -1,0 +1,24 @@
+Command		Input				What it does
+
+dl 			[song name]			donwload song based on name
+skip							skip current song [in playlist]
+sort 			[num] to [num]			change song location by moving all other songs one point down or up
+changesong 		[num] to [num]			change song location by switching two songs
+changename 		[num] [wait] [new name]		change the name of a song
+colorcode 		[wait] [color] [wait] [search term]	colorcode songs based on a search term
+clear							clear
+dldirect 			[direct link]			donwlaod song with a direct link from youtube
+play 			[num]				play song
+stop							stop song-playing and [if currently executed] playlist
+start playlist						start playlist from the first song on the list
+start specific 		[num]				start platlist from a specific song
+dlstart 			[song]				downlaod a song and play it
+change 			[num]				change the song being played on the playlist
+delcolorcode 		[colorcode]			delete a specific color of color-coding
+del 			[num]				delete a song
+
+Formatting:
+[artist][space]-[space][song][space]::[extra info, optional]
+Examples:
+ - queen - under pressure ::piano cover
+ - goodbye kumiko - bicycle waltz
